@@ -1,0 +1,34 @@
+
+@font-face {
+    font-family: "Header";
+    src: url("fonts/BebasNeue-Regular.ttf");
+}
+
+.logo {
+    width: 15%;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Header";
+    font-size: x-large;
+}
+
+.nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #1F6AE6;
+    text-decoration: none;
+}
